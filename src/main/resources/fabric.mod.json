@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "verityvisuals",
+	"version": "${version}",
+	"name": "Verity Visuals",
+	"description": "A client-side visual customization mod.",
+	"authors": ["Verity Visuals"],
+	"license": "CC0-1.0",
+	"icon": "assets/verityvisuals/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.verityvisuals.client.VerityVisualsClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "verityvisuals.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

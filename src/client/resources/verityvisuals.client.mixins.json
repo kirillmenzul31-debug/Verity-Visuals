@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.verityvisuals.client.mixin",
+  "refmap": "client-verityvisuals.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FullBrightMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
